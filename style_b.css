@@ -4,6 +4,11 @@
 	background-size:cover;
 	
 }
+@media screen and (max-width:760px) {
+	.header {
+	height:200px
+}
+}
 .naslov2{
 	font-size:48px;
 	font-family:'Pompiere', cursive;
