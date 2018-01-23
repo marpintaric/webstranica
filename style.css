@@ -16,13 +16,11 @@
 	font-family: 'Lobster', cursive;
 }
 @media screen and (max-width:760px) {
-	.header {
-	height:300px
-	}
-	.header p{
+	
+	.header a{
 		display:none;
 	}
-	.header a{
+	.header p{
 		display:block;
 		position:absolute;
 		top:50%;
@@ -191,13 +189,7 @@
 	margin-left:50px;
 	
 }
-.pravokutnik
-{
-	height:81px;
-	background-color: #7D7070;
-	margin-top:50px;
-	
-}
+
 
 .footer ul{
 	float:right;
@@ -213,6 +205,21 @@
 	padding-left:20px;
 	padding-right:20px;
 	display: block;
+}
+@media screen and (max-width:760px) { 
+	.footer img {
+		width: 60%;
+		margin: 90px 80px auto 0;
+		display: block;
+	}
+	.footer ul {
+		margin: 10px 20px 0 0;
+		text-align: center;
+		float: none;
+	}
+	.footer ul li {
+		display: block;
+	}
 }
 .slideshow{
 	height:400px;
